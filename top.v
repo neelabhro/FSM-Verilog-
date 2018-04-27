@@ -25,3 +25,4 @@ module top(
     FSM_Door fsm(cln_pulse, clr_db, bn[2:1],sw,counter,LED_right,LED_wrong, state);
     
 endmodule
+
